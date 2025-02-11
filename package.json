@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node src/api/index.ts",
+    "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node src/api/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
