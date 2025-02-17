@@ -12,6 +12,7 @@ app.use(cors());
 const DATA_FILE = "src/data.json";
 
 interface Transaction {
+  id: string;
   name: string;
   date: string;
   price: number;
@@ -25,7 +26,6 @@ app.listen(PORT, () => {
 
 app.get("/transactions", (req: Request, res: Response) => {
   fs.readFile(DATA_FILE, (err, data) => {
-    console.log(err);
     if (!fs.existsSync(DATA_FILE)) {
       return res.status(500).json({ error: "Archivo de datos no encontrado" });
     }
