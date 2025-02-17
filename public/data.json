@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Compra comida",
+    "date": "2025-02-03",
+    "price": -50,
+    "type": "gasto",
+    "id": "bwawrktj"
+  },
+  {
+    "name": "Compra comida",
+    "date": "2025-02-03",
+    "price": -50,
+    "type": "gasto",
+    "id": "5gcb4j7l"
+  },
+  {
+    "name": "saldo",
+    "date": "2025-02-01",
+    "price": 1500,
+    "type": "ingreso",
+    "id": "84l858pt"
+  },
+  {
+    "name": "ropa",
+    "date": "2025-02-03",
+    "price": 500,
+    "id": "s1qq7a9z"
+  },
+  {
+    "name": "comprar ropa",
+    "date": "2025-02-03",
+    "price": -300,
+    "id": "vv3fh9hp",
+    "type": "gasto"
+  },
+  {
+    "name": "hipoteca",
+    "date": "2025-02-03",
+    "price": -2000,
+    "id": "zkalm1jz",
+    "type": "gasto"
+  },
+  {
+    "name": "Regalo",
+    "date": "2025-01-13",
+    "price": -15,
+    "type": "gasto",
+    "id": "29g620e7"
+  },
+  {
+    "name": "carrera",
+    "date": "2025-02-04",
+    "price": -34,
+    "type": "gasto",
+    "id": "4b774vwr"
+  },
+  {
+    "name": "Compra comida",
+    "date": "2025-01-20",
+    "price": -500,
+    "type": "gasto",
+    "id": "j612xxms"
+  },
+  {
+    "name": "aleacion",
+    "date": "2025-02-20",
+    "price": 3000,
+    "type": "ingreso",
+    "id": "42q8anps"
+  },
+  {
+    "name": "aleacion",
+    "date": "2025-02-20",
+    "price": -50,
+    "type": "gasto",
+    "id": "68qqggdq"
+  },
+  {
+    "name": "aleacion",
+    "date": "2025-02-20",
+    "price": -50,
+    "type": "gasto",
+    "id": "zk2sa9ey"
+  }
+]

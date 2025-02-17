@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
-const DATA_FILE = "src/data.json";
+const DATA_FILE = "public/data.json";
 
 interface Transaction {
   id: string;
