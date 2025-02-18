@@ -14,6 +14,7 @@ const DATA_FILE = "public/data.json";
 interface Transaction {
   id: string;
   name: string;
+  category: string;
   date: string;
   price: number;
   type: "ingreso" | "gasto";
@@ -45,4 +46,17 @@ app.post("/transactions", (req: Request, res: Response) => {
       res.json({ message: "Transaction saved" });
     });
   });
+});
+
+app.delete("/transactions/:id", (req: Request, res: Response) => {
+    const transactionId = req.params.id;
+    fs.readFile(DATA_FILE, (err, data) => {
+      let transactions: Transaction[] = [];
+      if (!err) transactions = JSON.parse(data.toString() || "[]");
+      let updateTransactions = transactions.filter(tx => tx.id !== transactionId);
+      fs.writeFile(DATA_FILE, JSON.stringify(updateTransactions, null, 2), (err) => {
+        if (err) return res.status(500).json({ error: "Error saving data" });
+        res.json({ message: "Transaction saved" });
+      });
+    });
 });

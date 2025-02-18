@@ -7,13 +7,6 @@
     "id": "bwawrktj"
   },
   {
-    "name": "Compra comida",
-    "date": "2025-02-03",
-    "price": -50,
-    "type": "gasto",
-    "id": "5gcb4j7l"
-  },
-  {
     "name": "saldo",
     "date": "2025-02-01",
     "price": 1500,
@@ -81,5 +74,27 @@
     "price": -50,
     "type": "gasto",
     "id": "zk2sa9ey"
+  },
+  {
+    "name": "Saldo",
+    "category": "nomina",
+    "date": "2025-02-06",
+    "price": 1500,
+    "id": "tace2dtn"
+  },
+  {
+    "name": "Saldo",
+    "category": "nomina",
+    "date": "2025-02-06",
+    "price": 1500,
+    "id": "hwqya6wi"
+  },
+  {
+    "name": "Saldo",
+    "category": "nomina",
+    "date": "2025-02-06",
+    "price": -1500,
+    "id": "kfnerpd0",
+    "type": "gasto"
   }
 ]
