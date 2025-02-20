@@ -10,7 +10,7 @@ const app = (0, express_1.default)();
 const PORT = process.env.PORT || 5000;
 app.use(express_1.default.json());
 app.use((0, cors_1.default)());
-const DATA_FILE = "./data.json"; //const DATA_FILE = "public/data.json";
+const DATA_FILE = "data.json"; //const DATA_FILE = "public/data.json";
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`Servidor escuchando en http://localhost:${PORT}`);
